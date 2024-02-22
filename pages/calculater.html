@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> calculater </title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+
+        .cal-body{
+            
+            height: 300px;
+            width: 250px;
+            background-color: #3d3d5c;
+            margin: 20px auto;
+            border-radius:  10px;
+            padding: 20px;
+        }
+        .title{
+            margin-bottom: -22px;
+            margin-top: -3px;
+            font-size: 30px ;
+            text-align: center;
+            font-family:'Gill Sans';
+            color: white;
+            padding-bottom: 6px;
+
+        }
+        .screen{
+            background-color: #a1af77;
+            text-align: right;
+            width: 220px;
+            display: block;
+            margin: 0 auto;
+            font-size: 25px;
+            padding: 5px 10px;
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-family: 'Digital-7 Regular';
+
+           
+        }
+            
+            .btn-contain{
+            height: 220px;
+            background-color: none;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            
+
+        }
+        .btn{
+            width: 50px;
+            text-align: center;
+           padding: 2px 0;
+           font-size: 20px;
+           margin: 3px;
+           border-radius: 5px;
+           border: 0.5px solid black;
+           cursor:pointer;
+        }
+        .btn:hover{
+            box-shadow: 0px 0px 7px 0px white;
+            transition: 0.5s;
+        }
+        .special_btn{
+            background-color: #ff6348;
+            height:  70px;
+            color: #ffff;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="cal-body">
+    <p class="title"><b>CASIO</b></p>
+    <input type="text" value="0" class="screen " />
+ 
+    <div class="btn-contain">
+        <button class="btn">AC</button>
+        <button class="btn">7</button>
+        <button class="btn">4</button> 
+        <button class="btn">1</button> 
+        <button class="btn">0</button><br>
+
+        <button class="btn">M+</button>
+        <button class="btn">8</button>
+        <button class="btn">5</button> 
+        <button class="btn">2</button>
+        <button class="btn">. </button> <br>
+
+        <button class="btn">/</button>
+        <button class="btn">9</button>
+        <button class="btn">6</button> 
+        <button class="btn">3</button> 
+        <button class="btn">%</button> <br>
+
+        <button class="btn">X</button>
+        <button class="btn">-</button>
+        <button class="btn">+</button> 
+        <button class="btn special_btn">=</button> <br>
+
+    </div>
+
+</div>   
+</body>
+</html>
